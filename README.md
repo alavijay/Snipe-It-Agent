@@ -10,3 +10,8 @@ npm i
 npm t
 ```
 
+# Make new tests 
+```sh
+npx playwright init-agents --loop=vscode
+open copilot and select playwright agent and ask to write tests
+```
