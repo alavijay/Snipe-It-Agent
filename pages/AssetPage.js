@@ -36,7 +36,7 @@ class AssetPage extends BasePage{
     await this.assetTagInput.fill(await this.randomAssetTag());
     assetTagValue = await this.assetTagInput.inputValue();
     console.log(assetTagValue);
-    await this.serialInput.fill('Test1234');
+    await this.serialInput.fill('Test12345' + Math.floor(Math.random() * 900) + 100);
     await this.selectModel.click();
     await this.searchBox.fill('macbook');
     await this.selectMacbook.click();

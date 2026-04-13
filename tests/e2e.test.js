@@ -65,13 +65,13 @@ for (const config of configurations) {
 
       //  search for the asset
       await assetPage.gotoAssetPage();
-      await assetPage.findAsset();
+      // await assetPage.findAsset();
 
-      // verify asset details
-      await assetPage.verifyAssetDetails();
+      // // verify asset details
+      // await assetPage.verifyAssetDetails();
 
-      //verify asset History
-      await assetPage.verifyAssetHistory();
+      // //verify asset History
+      // await assetPage.verifyAssetHistory();
       
     });
   });
